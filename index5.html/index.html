@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Report</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Weather Report</h1>
+        <p>Get the current weather for your location or any city!</p>
+
+        <button onclick="getLocation()">Get Weather for My Location</button>
+        <br><br>
+        
+        <input type="text" id="cityInput" placeholder="Enter a city name">
+        <button onclick="getWeatherByCity()">Get Weather for City</button>
+
+        <div id="weather" class="weather-info"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
